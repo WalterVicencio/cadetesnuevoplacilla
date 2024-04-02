@@ -4,6 +4,10 @@ body{
 
 .portada{
     background-image: url(../img/futbol.jpg);
-    height: 680px;
+    height: 1024px;
     background-size: cover;
+}
+
+div label{
+    font-size: 18px;
 }

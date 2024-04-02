@@ -1,3 +1,9 @@
 body{
-    background-color: aqua;
+    background-color: black;
+}
+
+.portada{
+    background-image: url(../img/futbol.jpg);
+    height: 680px;
+    background-size: cover;
 }

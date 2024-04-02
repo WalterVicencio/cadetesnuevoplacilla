@@ -29,7 +29,11 @@
     <div class="portada text-center text-light p-5">
         <div class="bg-opacity-75 bg-primary rounded p-5">
             <h1>Formulario Preinscripción (En proceso de Construcción)</h1>
-            <form class="align-items-center"></form>
+            
+            <form action="./ficha_preinscripcion2.php" class="align-items-center" method="POST" target="_blank">
+              <button type="submit" class="btn btn-primary bt-lg p-2 fs-5">Preinscribir</button>
+            </form>
+            <form action="./ficha_preinscripcion2.php" class="align-items-center" method="POST" target="_blank">
             <div class="row">
               <hr class="border border-light border-3 opacity-75 mb-2 pb-0">
               <div class="col pt-0 mt-0">
@@ -43,7 +47,7 @@
               <div class="row p-5 pb-0 pt-0 mt-2">
                 <div class="col">
                   <label>Nombres</label>
-                  <input type="text" class="form-control" placeholder="Ingrese Nombres" aria-label="First name" required>
+                  <input name="nombre_alumno" type="text" class="form-control" placeholder="Ingrese Nombres" aria-label="First name" required>
                 </div>
                 <div class="col">
                   <label>Apellidos</label>
